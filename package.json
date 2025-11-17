@@ -14,7 +14,14 @@
   ],
   "author": "EvgenijRyabko",
   "license": "ISC",
-  "description": "",
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EvgenijRyabko/jmu-utils"
+  },
   "dependencies": {
     "@nestjs/common": "^11.1.8",
     "@nestjs/core": "^11.1.8",
